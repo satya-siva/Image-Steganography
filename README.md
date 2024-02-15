@@ -3,7 +3,7 @@ cannot know the presence or contents of the hidden message. The objective of Ste
 message, Steganography conceals the fact that a message is transmitted. Even though Steganography differs from Cryptography, there are various analogies between the two. There are many types of steganography process 
 includes Text Steganography,Image Steganography,Video Steganography,Audio Steganography,Network Steganography and E-mail Steganography . In this repository I have implemented the Image steganography using the python
 programming language.
-Image Steganography is hiding information within images such that it deceives the viewer as if there is no hidden information within the image. With the help of this, two people can communicate secretly.
+Image Steganography is hiding information within images such that it deceives the viewer as if there is no hidden information within the image. With the help of this, two people can communicate secretly.In this we have used the LSB(least significant bit) technique to encode or decode the information.
 Steps:
 1. Importing modules . PIL module is imported to extract Images and work with images.
 2. Taking an input to know whether what to encode or decode the image.
